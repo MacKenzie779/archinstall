@@ -23,3 +23,35 @@ git clone https://github.com/MacKenzie779/sddmconf
 cd sddmconf
 mv sddm.conf ..
 ```
+# Sway
+```bash
+cd ~
+git clone https://github.com/zimsneexh/zws-setup-sway
+cd zws-setup-sway
+./install.sh
+```
+
+```bash
+yay -S alacritty zsh
+mv zws-setup-sway/zshrc ./.zshrc
+```
+
+# Rofi
+```bash
+git clone https://github.com/lr-tech/rofi-themes-collection.git
+cd rofi-themes-collection
+mkdir -p ~/.local/share/rofi/themes/
+cp themes/squared-nord.rasi ~/.local/share/rofi/themes/
+```
+Run rofi-theme-selector and select squared-nord
+
+#Nemo
+
+#Swaylock
+yay -S swaylock-effects-git swayidle
+
+#Brightness
+yay -S brightnessctl
+
+#PulseAudio
+yay -S pulseaudio pavucontrol
